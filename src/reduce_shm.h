@@ -1,10 +1,9 @@
 /*
- * reduce_cu.h
+ * reduce_shm.h
  *
- *  Created on: Dec 2, 2020
- *      Author: Rubén
+ * Author: Ruben
  */
 
 #pragma once
 
-void reduce_shm(int numBlocks, int blockSize, size_t shmSize, const int *source_dev, int *dest_dev);
+void reduceShm(int numBlocks, int blockSize, size_t shmSize, const int *sourceDev, int *destDev);
